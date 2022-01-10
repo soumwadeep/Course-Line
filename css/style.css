@@ -1,55 +1,71 @@
-body
-{
+body{
   font-family: Georgia;
 }
-/*a*/
-a
-{
+a{
   text-decoration: none;
-  color: black;
 }
-.navbar a
-{
-  text-decoration: none;
+.navbar{
+  text-align: center;
   padding: 10px;
-  font-style: italic;
-  font-weight: bold;
-}
-/*Dark Mode CSS*/
-.dark-mode
-{
-  background-color: #333;
-  color: #fff;
-}
-.dark-mode a
-{
-  color: #fff;
-  text-decoration: none;
-}
-.dark-mode button
-{
-  background-color: white;
-  color: black;
-}
-/*button*/
-.button
-{
   background-color: black;
-  color: white;
-  padding: 10px;
+  border-radius: 20px;
 }
-/*navbar*/
-.navbar 
-{
+#navbar{
   overflow: hidden;
-  margin-top: 50px;
 }
-.centerpage 
-{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.navbar a{
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.navbar a:hover{
+  background-color: grey;
+  color: #fff;
+}
+.dark-mode{
+  background-color: #000;
+  color: #fff;
+}
+.dark-mode-btn{
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dark-mode-btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.dark-mode .navbar {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+.dark-mode .navbar a{
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+}
+.dark-mode .navbar a:hover{
+  background-color: grey;
+  color: #fff;
+}
+.dark-mode .dark-mode-btn{
+  background-color: #fff;
+  color: #000;
+}
+.dark-mode .dark-mode-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+.home-content{
+  margin: 10%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 97%;
+  text-align: center;
 }
