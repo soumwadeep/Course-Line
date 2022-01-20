@@ -1,0 +1,81 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  .heading{
+    text-align: center;
+  }
+  #updates {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  #updatesicon{
+    margin-left: 10px;
+  }
+  #library {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  #libraryicon{
+    margin-left: 15px;
+  }
+  #classes {
+    top: 140px;
+    background-color: #f44336;
+  }
+  #classesicon{
+    margin-left: 15px;
+  }
+  #fees {
+    top: 200px;
+    background-color: #555
+  }
+  #feesicon{
+    margin-left: 37px;
+  }
+  #exam {
+    top: 260px;
+    background-color: green;
+  }
+  #examicon{
+    margin-left: 29px;
+  }
+  #results {
+    top: 320px;
+    background-color: red;
+  }
+  #resultsicon{
+    margin-left: 15px;
+  }
+  #attendance {
+    top: 380px;
+    background-color: #ff9800;
+  }
+  #attendanceicon{
+    margin-left: 30px;
+  }
+  #profile {
+    top: 440px;
+    background-color: #2196F3;
+  }
+  #profileicon{
+    margin-left: 20px;
+  }
+  #logout {
+    top: 500px;
+    background-color: #f44336;
+  }
+  #logouticon{
+    margin-left: 15px;
+  }
