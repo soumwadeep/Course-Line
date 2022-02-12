@@ -1,2 +1,2 @@
 # Course Line
- An All-In-One Learning Platform
+ An All-In-One Learning Platform.
