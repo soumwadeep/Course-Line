@@ -1,4 +1,27 @@
 body{
-    font-family: georgia;
+    font-family: 'Ramaraja', serif;
+    font-size: large;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Ramaraja', serif;
     font-weight: bold;
+}
+#active{
+    background-color: darkorchid;
+    color: white;
+}
+.w3-button{
+    margin-bottom: 10px;
+}
+.w3-button:hover{
+    background-color: darkorchid !important;
+    color: white !important;
+}
+.dark-mode 
+{
+    background-color: black;
+    color: white;
+}
+p{
+    font-size: large;
 }
