@@ -78,7 +78,15 @@ img {
 }
 
 .section__height {
-  height: 100vh;
+  height: 500vh;
+  /* height: auto; */
+}
+
+/* IFRAMES */
+.frame{
+height:800px ;
+width: 100%;
+border: none;
 }
 
 /*=============== LAYOUT ===============*/
