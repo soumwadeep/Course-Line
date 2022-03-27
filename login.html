@@ -11,9 +11,6 @@
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
 <link rel="stylesheet" href="assets/css/loginstyle.css">
-<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-<script src="assets/js/form.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -31,11 +28,11 @@
 					<i class="login__icon fas fa-lock"></i>
 					<input type="password" class="login__input" placeholder="Your Password">
 				</div>
-				<button class="button login__submit" onclick="signIn()">
+				<button class="button login__submit">
 					<span class="button__text">Log In Now</span>
 					<i class="button__icon fas fa-chevron-right"></i>
 				</button>
-				<button class="button login__submit" onclick="signUp()">
+				<button class="button login__submit">
 					<span class="button__text">Register Now</span>
 					<i class="button__icon fas fa-chevron-right"></i>
 				</button>				
@@ -50,6 +47,5 @@
 	</div>
 </div>
 <!-- partial -->
-  
 </body>
 </html>
