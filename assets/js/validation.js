@@ -45,3 +45,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebas
 		    alert(errorMessage);
         });
     });
+    //audio
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.2;
