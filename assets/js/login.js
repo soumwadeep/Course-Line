@@ -54,7 +54,7 @@
   		.then((userCredential) => {
     	// Signed in 
     	const user = userCredential.user;
-		alert("Welcome Back! You Are Now Logged In!");
+		// alert("Welcome Back! You Are Now Logged In!");
 		window.location.href = "home.html";
     	// ...
   		})
@@ -66,29 +66,3 @@
 		alert(errorMessage);
   		});
 	});
-	const user = auth.currentUser;
-	onAuthStateChanged(auth, (user) => {
-  		if (user) {
-    	// User is signed in, see docs for a list of available properties
-    	// https://firebase.google.com/docs/reference/js/firebase.User
-    	const uid = user.uid;
-    	// ...
-  		} else {
-    	// User is signed out
-    	// ...
-  		}
-	});
-    // Sign Out
-    logOut.addEventListener('click', (e) => {
-        signOut(auth).then(() => {
-            // Sign-out successful.
-            alert("You Have Been Logged Out!");
-            window.location.href = "index.html";
-          }).catch((error) => {
-            // An error happened.
-            const errorCode = error.code;
-    	    const errorMessage = error.message;
-            //add an alert for errors
-		    alert(errorMessage);
-        });
-    });

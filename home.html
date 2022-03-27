@@ -18,7 +18,7 @@
         <!-- Open Links In Parent Website Only
         <base href="https://soumwadeep.github.io/Course-Line/" target="_PARENT"> -->
         <title>Welcome To Course Line</title>
-        <script type="module" src="assets/js/login.js"></script>
+        <script type="module" src="assets/js/validation.js"></script>
     </head>
     <body>
         <!--=============== HEADER ===============-->
@@ -70,11 +70,17 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <button id="signOut" class="nav__link" style="border: none;background: transparent;">
+                            <a id="logOut" class="nav__link" style="cursor: pointer;">
+                                <i class='bx bx-log-out nav__icon'></i>
+                                <span class="nav__name">Log Out</span>
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <button id="logOut" class="nav__link" style="border: none;background: transparent;">
                                 <i class='bx bx-log-out nav__icon'></i>
                                 <span class="nav__name">Sign Out</span>
                             </button>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
